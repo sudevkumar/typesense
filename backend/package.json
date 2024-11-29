@@ -1,0 +1,25 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "dependencies": {
+    "axios": "^1.7.8",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "mongodb": "^6.11.0",
+    "mongosh": "^2.3.4",
+    "typesense": "^1.8.2",
+    "typesense-instantsearch-adapter": "^2.8.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server-start": "node script/typesenseServer.js",
+    "populatebikes": "node script/popullateBike.js",
+    "populatecars": "node script/populateCar.js",
+    "populateblogs": "node script/populateBlog.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
